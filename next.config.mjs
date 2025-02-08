@@ -5,7 +5,11 @@ const nextConfig = { images: {
   images: {
     unoptimized: true, 
   },
-  basePath: "/Hackathon3-_2025", 
-  assetPrefix: "/Hackathon3-_2025/",
+  
+
+      reactStrictMode: true,
+
+    
+   
  };
   export default nextConfig;

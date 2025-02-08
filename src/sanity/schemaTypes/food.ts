@@ -1,4 +1,4 @@
-export default {
+export default  {
     name: 'food',
     type: 'document',
     title: 'Food',
