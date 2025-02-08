@@ -1,17 +1,36 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
+import {Inter ,   Miniver } from "next/font/google";
+import { Great_Vibes } from "next/font/google"; 
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import "./globals.css";
+import Header from "@/components/landing page/Header";
+import Footer from "@/components/landing page/Footer";
+import { SheetDemo } from "./sheet";
+
+const inter =Inter
+({
+  subsets: ['latin'],
+  weight:['400' , '700']
+
+})
+ 
+const greatVibes = Great_Vibes
+({
+  subsets: ['latin'],
+  weight:['400' ]
+
+})
+
+const miniver = Miniver
+({
+  subsets: ['latin'],
+  weight:['400' ]
+
+})
+
+
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,10 +44,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+       <head>
+        {/* Set a fixed viewport width */}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        className = "font-sans"
+      > 
+    <div className="main-container">
+      
+       
+      <main>
+       
+    <SheetDemo/>
+      <Header/>
         {children}
+      </main>
+ 
+         <Footer/>
+         </div> 
       </body>
     </html>
   );
