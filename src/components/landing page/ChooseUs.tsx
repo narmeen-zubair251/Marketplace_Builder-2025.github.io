@@ -9,16 +9,16 @@
   
       <div className='max-w-[550px]  w-full lg:ml-[60px] h-[500px] text-center sm:px-6'>
          <div className='flex gap-4 '>
-          <Image src="/images/choose1.png " alt="image1 " width={362} height={356} className=' rounded-6'/>  
-          <Image src="/images/choose2.png " alt="image2 " width={251} height={231} className='mt-[75px] rounded-6'/>  
+          <Image src="/images/choose1.png " alt="image1 " width={262} height={356} className=' rounded-6'/>  
+          <Image src="/images/choose2.png " alt="image2 " width={200} height={231} className='mt-[75px] rounded-6'/>  
       </div>
        
       <div className='flex gap-4  mt-4'>
-         <Image src="/images/choose3.png " alt="image3 " width={244} height={306} className=' rounded-6'/>  
+         <Image src="/images/choose3.png " alt="image3 " width={200} height={306} className=' rounded-6'/>  
          <Image src="/images/choose4.png " alt="image4 " width={221} height={226} className=' mb-28 rounded-6'/>  
       <div>
-        <Image src="/images/choose5.png " alt="image5 " width={161} height={168} className=' rounded-6'/>  
-        <Image src="/images/choose6.png " alt="image6 " width={161} height={166} className=' mt-4 rounded-6'/>  
+        <Image src="/images/choose5.png " alt="image5 " width={141} height={168} className=' rounded-6'/>  
+        <Image src="/images/choose6.png " alt="image6 " width={141} height={166} className=' mt-4 rounded-6'/>  
 
       </div>
          </div>
